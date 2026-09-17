@@ -95,86 +95,22 @@ const MOVIES = [
     regularPrice: 300,
     vipPrice: 450
   },
-  {
-    id: 7,
-    title: "Neon Horizon: 2088",
-    genre: ["Sci-Fi", "Action", "Thriller"],
-    rating: 9.1,
-    duration: "2h 32m",
-    release: "2026",
-    director: "Kenji Sato",
-    cast: ["Rinko Kikuchi", "Hiroyuki Sanada", "Andrew Koji"],
-    description: "In a submerged neo-cyberpunk megalopolis, an outlaw memory courier uncovers an encrypted neuro-blueprint capable of altering human consciousness.",
-    posterImage: "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&h=900&fit=crop",
-    heroImage: "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=1600&fit=crop",
-    trailerUrl: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1",
-    regularPrice: 350,
-    vipPrice: 530
-  },
-  {
-    id: 8,
-    title: "Whispers in the Starlight",
-    genre: ["Animation", "Fantasy", "Romance"],
-    rating: 9.0,
-    duration: "1h 56m",
-    release: "2026",
-    director: "Makoto Shinkai Studio",
-    cast: ["Nana Mori", "Ryunosuke Kamiki"],
-    description: "When an astrophysicist detects harmonic radio signals from a distant comet, she connects with a forgotten companion across alternate celestial timelines.",
-    posterImage: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&h=900&fit=crop",
-    heroImage: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1600&fit=crop",
-    trailerUrl: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1",
-    regularPrice: 310,
-    vipPrice: 460
-  },
-  {
-    id: 9,
-    title: "The Obsidian Key",
-    genre: ["Horror", "Mystery", "Thriller"],
-    rating: 8.6,
-    duration: "2h 02m",
-    release: "2026",
-    director: "Guillermo del Toro",
-    cast: ["Mia Goth", "Willem Dafoe", "Bill Skarsgård"],
-    description: "An antique appraiser is summoned to catalog an ancestral estate in the Black Forest, only to realize the architecture itself is an ancient occult prison.",
-    posterImage: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&h=900&fit=crop",
-    heroImage: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=1600&fit=crop",
-    trailerUrl: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1",
-    regularPrice: 330,
-    vipPrice: 490
-  },
-  {
-    id: 10,
-    title: "Symphony of the Dunes",
-    genre: ["Adventure", "Sci-Fi", "Drama"],
-    rating: 9.4,
-    duration: "2h 45m",
-    release: "2026",
-    director: "Denis Villeneuve",
-    cast: ["Timothée Chalamet", "Zendaya", "Florence Pugh"],
-    description: "An epic planetary expedition across forbidden desert sands to unlock the acoustic frequencies that preserve interplanetary balance.",
-    posterImage: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&h=900&fit=crop",
-    heroImage: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=1600&fit=crop",
-    trailerUrl: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1",
-    regularPrice: 360,
-    vipPrice: 550
-  }
 ];
 
 const HERO_FEATURED = [MOVIES[0], MOVIES[1], MOVIES[4], MOVIES[2]];
 
 const SNACKS = [
-  { id: 'popcorn', name: "Gourmet Truffle Butter Popcorn", price: 160, icon: "🍿", desc: "Freshly popped kernels tossed in real French butter & black truffle salt." },
-  { id: 'nachos', name: "Loaded Artisan Nachos Grande", price: 190, icon: "🧀", desc: "Warm tortilla chips with rich queso, jalapeños & house salsa dip." },
-  { id: 'fries', name: "Crispy Parmesan Truffle Fries", price: 175, icon: "🍟", desc: "Golden shoestring potatoes dusted with herbs & aged Italian parmesan." },
-  { id: 'soda', name: "CINÉVA Signature Craft Soda", price: 95, icon: "🥤", desc: "Choice of Classic Cherry Cola, Yuzu Sparkling Fizz, or Iced Peach Tea." }
+  { id: 'popcorn', name: "Gourmet Truffle Butter Popcorn", price: 160, icon: "🍿", desc: "Freshly popped kernels tossed in real butter and black truffle salt." },
+  { id: 'nachos', name: "Artisan Nachos Grande", price: 190, icon: "🧀", desc: "Warm tortilla chips with rich queso, jalapeños, and house salsa dip." },
+  { id: 'fries', name: "Crispy Truffle Fries", price: 175, icon: "🍟", desc: "Golden shoestring potatoes dusted with herbs and aged parmesan." },
+  { id: 'soda', name: "Signature Craft Soda", price: 95, icon: "🥤", desc: "Choice of Classic Cherry Cola, Yuzu Sparkling Fizz, or Iced Peach Tea." }
 ];
 
 const CINEMAS = [
-  { id: 1, name: "CINÉVA Central", location: "BGC High Street, Taguig", screens: 12, features: ["IMAX Laser", "Dolby Atmos", "VIP Recliner"] },
-  { id: 2, name: "CINÉVA Grand Luxe", location: "Rockwell Center, Makati", screens: 8, features: ["Butler Service", "In-Seat Dining", "4K Sound"] },
-  { id: 3, name: "CINÉVA Promenade", location: "Greenhills, San Juan", screens: 6, features: ["Laser Projection", "Dolby Atmos", "Club Bar"] },
-  { id: 4, name: "CINÉVA Seaside Dome", location: "Mall of Asia, Pasay", screens: 10, features: ["Giant IMAX", "D-BOX Motion", "Barco 4K"] }
+  { id: 1, name: "Movie Booking Central", location: "BGC High Street, Taguig", screens: 12, features: ["IMAX Laser", "Dolby Atmos", "VIP Recliner"] },
+  { id: 2, name: "Movie Booking Grand Luxe", location: "Rockwell Center, Makati", screens: 8, features: ["Butler Service", "In-Seat Dining", "4K Sound"] },
+  { id: 3, name: "Movie Booking Promenade", location: "Greenhills, San Juan", screens: 6, features: ["Laser Projection", "Dolby Atmos", "Club Bar"] },
+  { id: 4, name: "Movie Booking Seaside Dome", location: "Mall of Asia, Pasay", screens: 10, features: ["Giant IMAX", "D-BOX Motion", "Barco 4K"] }
 ];
 
 const COMING_SOON = [
@@ -197,7 +133,7 @@ const state = {
   soundscapeActive: false,
   audioCtx: null,
   droneNodes: null,
-  favorites: JSON.parse(localStorage.getItem("cineva_favorites") || "[]"),
+  favorites: JSON.parse(localStorage.getItem("moviebooking_favorites") || "[]"),
   booking: {
     movie: null,
     cinema: null,
@@ -211,19 +147,18 @@ const state = {
     holdTimerInterval: null,
     secondsLeft: 600
   },
-  tickets: JSON.parse(localStorage.getItem("cineva_tickets") || "[]")
+  tickets: JSON.parse(localStorage.getItem("moviebooking_tickets") || "[]")
 };
 
 const $ = sel => document.querySelector(sel);
 const $$ = sel => document.querySelectorAll(sel);
 const formatPeso = n => '₱' + Math.max(0, n).toLocaleString('en-PH');
-const genRef = () => 'CV-' + new Date().getFullYear() + '-' + Math.floor(100000 + Math.random() * 900000);
+const genRef = () => 'MB-' + new Date().getFullYear() + '-' + Math.floor(100000 + Math.random() * 900000);
 
 function haptic(ms = 12) {
   if (navigator.vibrate) navigator.vibrate(ms);
 }
 
-/* ============ SOUND FX ENGINE ============ */
 function getAudioContext() {
   if (!state.audioCtx) {
     const AudioContext = window.AudioContext || window.webkitAudioContext;
@@ -285,10 +220,10 @@ function toggleSoundscape() {
       filter.frequency.setValueAtTime(160, ctx.currentTime);
 
       osc1.type = 'sine';
-      osc1.frequency.setValueAtTime(55, ctx.currentTime); // 55Hz Low Sub A
+      osc1.frequency.setValueAtTime(55, ctx.currentTime);
 
       osc2.type = 'sawtooth';
-      osc2.frequency.setValueAtTime(110.5, ctx.currentTime); // 110.5Hz Binaural drone
+      osc2.frequency.setValueAtTime(110.5, ctx.currentTime);
 
       gain.gain.setValueAtTime(0.001, ctx.currentTime);
       gain.gain.exponentialRampToValueAtTime(0.12, ctx.currentTime + 2.5);
@@ -322,25 +257,23 @@ function toggleSoundscape() {
   }
 }
 
-/* ============ TOAST SYSTEM ============ */
 function toast(msg, type = 'info') {
   const t = document.createElement('div');
   t.className = 'toast ' + type;
   const icon = type === 'success'
-    ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>'
+    ? '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>'
     : type === 'error'
-    ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>'
-    : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>';
+    ? '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>'
+    : '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>';
 
   t.innerHTML = `<div class="toast-icon">${icon}</div><div class="toast-msg">${msg}</div>`;
   $('#toastContainer').appendChild(t);
   setTimeout(() => {
     t.classList.add('out');
-    setTimeout(() => t.remove(), 350);
+    setTimeout(() => t.remove(), 300);
   }, 3200);
 }
 
-/* ============ CAROUSEL & HERO ============ */
 function renderHeroIndicators() {
   const c = $('#heroIndicators');
   c.innerHTML = HERO_FEATURED.map((_, i) => `
@@ -411,7 +344,6 @@ function startHeroTimer() {
   }, 6500);
 }
 
-/* ============ MOVIES & FAVORITES ============ */
 function toggleFavorite(id, e) {
   e.stopPropagation();
   haptic(15);
@@ -424,7 +356,7 @@ function toggleFavorite(id, e) {
     state.favorites.push(id);
     toast('Added to favorites! ❤️', 'success');
   }
-  localStorage.setItem('cineva_favorites', JSON.stringify(state.favorites));
+  localStorage.setItem('moviebooking_favorites', JSON.stringify(state.favorites));
   updateFavCount();
   renderMovies();
 }
@@ -457,7 +389,7 @@ function renderMovies() {
   grid.innerHTML = filtered.map((m, idx) => {
     const isFav = state.favorites.includes(m.id);
     return `
-      <article class="movie-card" data-id="${m.id}" style="animation: fadeIn 0.4s var(--ease) ${idx * 0.03}s both">
+      <article class="movie-card" data-id="${m.id}" style="animation: fadeIn 0.35s var(--ease) ${idx * 0.03}s both">
         <div class="movie-poster">
           <img src="${m.posterImage}" alt="${m.title}" loading="lazy" />
           <button class="fav-btn ${isFav ? 'favorited' : ''}" data-fav="${m.id}" title="Save to favorites">
@@ -521,7 +453,6 @@ $$('.filter').forEach(f => f.addEventListener('click', () => {
   renderMovies();
 }));
 
-/* ============ MODALS ============ */
 function openModal(id) {
   const m = document.getElementById(id);
   m.classList.add('open');
@@ -574,7 +505,7 @@ function openMovieModal(m) {
       </div>
       <p class="modal-movie-desc">${m.description}</p>
 
-      <div class="movie-prices" style="margin-bottom:18px;max-width:280px">
+      <div class="movie-prices" style="margin-bottom:16px;max-width:260px">
         <div class="price-pill"><span class="lbl">Regular Seat</span><span class="val">${formatPeso(m.regularPrice)}</span></div>
         <div class="price-pill vip"><span class="lbl">VIP Recliner</span><span class="val">${formatPeso(m.vipPrice)}</span></div>
       </div>
@@ -607,7 +538,6 @@ function openMovieModal(m) {
   });
 }
 
-/* ============ 6-STEP BOOKING FLOW ============ */
 function startSeatHoldTimer() {
   clearInterval(state.booking.holdTimerInterval);
   state.booking.secondsLeft = 600;
@@ -707,7 +637,7 @@ function renderStep2(body) {
   body.innerHTML = `
     <div class="booking-step">
       <h3>Select Cinema Branch</h3>
-      <p class="sub">Choose your preferred CINÉVA theatre location.</p>
+      <p class="sub">Choose your preferred Movie Booking location.</p>
       <div class="cinema-options">
         ${CINEMAS.map(c => `
           <div class="cinema-option ${state.booking.cinema?.id === c.id ? 'selected' : ''}" data-cid="${c.id}">
@@ -753,7 +683,7 @@ function renderStep3(body) {
           </div>
         `).join('')}
       </div>
-      <h4 style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:12px">Available Showtimes</h4>
+      <h4 style="font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent);margin-bottom:10px">Available Showtimes</h4>
       <div class="time-options">
         ${SHOWTIMES.map(t => `<div class="time-chip ${state.booking.time === t ? 'selected' : ''}" data-time="${t}">${t}</div>`).join('')}
       </div>
@@ -824,7 +754,7 @@ function renderStep4(body) {
           </div>
 
           <div class="seat-perspective-preview" id="seatPerspective">
-            <span>👁️</span> Tap any seat to preview viewing sweet spot & acoustics
+            <span>👁️</span> Select a seat to check sound sweet spot & sightline
           </div>
 
           <div class="seat-map-pan-container">
@@ -889,7 +819,6 @@ function renderStep4(body) {
       const row = seat.dataset.row;
       const idx = b.seats.findIndex(s => s.id === id);
 
-      // Sweet spot perspective calculation
       const povEl = $('#seatPerspective');
       if (row === 'E' || row === 'D') {
         povEl.innerHTML = `<span>🎯</span> <strong>Seat ${id}:</strong> Master Audio Sweet Spot (38° Field of View)`;
@@ -1061,7 +990,7 @@ function renderStep6(body) {
               <span class="payment-mode-badge">E-Wallet</span>
             </div>
             <div class="payment-mode-card ${b.paymentMethod === 'card' ? 'selected' : ''}" data-method="card">
-              <div class="payment-mode-icon" style="color:#e8b84a">💳</div>
+              <div class="payment-mode-icon" style="color:var(--accent)">💳</div>
               <div class="payment-mode-title">Card</div>
               <span class="payment-mode-badge">Visa/MC</span>
             </div>
@@ -1139,7 +1068,7 @@ function renderPaymentFields(method) {
     return `
       <div class="form-group">
         <label class="form-label">Cardholder Name</label>
-        <input type="text" class="form-input" placeholder="Juan Dela Cruz" value="Cinema Connoisseur" />
+        <input type="text" class="form-input" placeholder="Juan Dela Cruz" value="Movie Enthusiast" />
       </div>
       <div class="form-group">
         <label class="form-label">Card Number</label>
@@ -1197,7 +1126,7 @@ function confirmBooking() {
   };
 
   state.tickets.unshift(ticket);
-  localStorage.setItem('cineva_tickets', JSON.stringify(state.tickets));
+  localStorage.setItem('moviebooking_tickets', JSON.stringify(state.tickets));
 
   closeModal('bookingModal');
   playUiSound('success');
@@ -1249,7 +1178,6 @@ function showConfirmationModal(t) {
   toast("Pass saved to wallet!", 'success');
 }
 
-/* ============ MY TICKETS ============ */
 function renderTickets() {
   const grid = $('#ticketsGrid');
   const countBadgeNav = $('#ticketCountBadgeNav');
@@ -1320,7 +1248,7 @@ function renderTickets() {
           if (confirm(`Cancel reservation for ${t.movie}? Full refund will be credited.`)) {
             haptic(20);
             state.tickets = state.tickets.filter(x => x.ref !== ref);
-            localStorage.setItem('cineva_tickets', JSON.stringify(state.tickets));
+            localStorage.setItem('moviebooking_tickets', JSON.stringify(state.tickets));
             renderTickets();
             toast('Pass cancelled and refund issued.', 'error');
           }
@@ -1330,7 +1258,6 @@ function renderTickets() {
   });
 }
 
-/* ============ DIRECTORIES ============ */
 function renderSnacksPreview() {
   $('#snacksPreviewGrid').innerHTML = SNACKS.map(s => `
     <div class="snack-card">
@@ -1388,9 +1315,8 @@ function renderComingSoon() {
   }));
 }
 
-/* ============ GLOBAL LISTENERS & INITIALIZATION ============ */
 window.addEventListener('load', () => {
-  setTimeout(() => $('#loader').classList.add('done'), 900);
+  setTimeout(() => $('#loader').classList.add('done'), 700);
 });
 
 window.addEventListener('scroll', () => {
